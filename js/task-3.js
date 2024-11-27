@@ -1,7 +1,6 @@
-const content = 50;
-const padding = 8;
-const border = 4;
+const content = 60;
+const padding = 12;
+const border = 8.5;
 const borderBox = content + padding * 2 + border * 2;
-const getElementWidth = `"${content}px", "${padding}px", "${border}px"`
+const getElementWidth = `"${content}px", "${padding}px", "${border}px", ${borderBox}`
 console.log(getElementWidth);
-console.log(borderBox);
